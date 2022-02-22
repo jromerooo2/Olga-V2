@@ -100,7 +100,7 @@ button:focus {
 
 @font-face {
   font-family: "Mongo";
-  src: url(../font/Mongo.otf) format("opentype");
+  src: url("../font/Mongo.otf") format("opentype");
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -4149,7 +4149,6 @@ News Details Content Style
 
 .news-details-content .share-link {
   display: inline-block;
-  float: right;
   position: relative;
   padding-bottom: 20px;
 }
@@ -5735,7 +5734,7 @@ User Area CSS
 
 .user-area-style .contact-form-action form .login-action .forgot-login {
   display: inline-block;
-  float: right;
+
 }
 
 .user-area-style .contact-form-action form .right {
